@@ -8,7 +8,7 @@ function App() {
   let [n2, setN2] = useState("");
   let [equal, setEqual] = useState("");
   let [operation, setOperation] = useState("");
-
+  <img src="homepagebackgrounds/image1.JPG" />;
   let final = useEffect(() => {
     if (equal == "=") {
       setOperation("");
